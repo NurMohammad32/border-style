@@ -1,0 +1,60 @@
+@font-face {
+    font-family: english-fonts;
+    src: url("../../others/New-font/English-new-font/Pacifico-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: english-fonts;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #64506d;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 30px;
+}
+.box::after{
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border-radius: 30px;
+    background: #866b92;
+}
+.box:before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    background: linear-gradient(#e7d002, #ff04f2);
+    animation: animate 7s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box h2{
+    position: relative;
+    color: rgb(0, 225, 255);
+    font-size: 10em;
+    z-index: 10;
+
+}
+
+
