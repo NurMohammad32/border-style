@@ -22,7 +22,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(210, 210, 210, 1);
+    background: rgba(100, 80, 109, 0.5);
     overflow: hidden;
     border-radius: 30px;
 }
