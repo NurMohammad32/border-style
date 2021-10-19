@@ -31,7 +31,7 @@ body{
     position: absolute;
     inset: 3px;
     border-radius: 30px;
-    background: #866b92;
+    background: rgba(100, 80, 109, 0.5);
 }
 .box:before{
     content: "";
