@@ -26,7 +26,7 @@ body{
     overflow: hidden;
     border-radius: 30px;
 }
-.box::after{
+.box:after{
     content: "";
     position: absolute;
     inset: 3px;
